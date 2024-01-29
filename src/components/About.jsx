@@ -16,11 +16,17 @@ const About = () => {
         </div>
 
              <p className='text-xl '>
-              I'm Ewa Lawrence, a passionate and results-driven full-stack developer with expertise in both front-end and back-end technologies. I am
-              Detail-oriented and enthusiastic, I thrive precisely on tackling challenges and transforming ideas into efficient solutions through code.
-              I am seeking opportunities to contribute my technical skills, creativity, and problem-solving expertise in a collaborative team 
-              environment. My goal is to take on new challenges, utilize my coding and debugging skills, and enhance the overall user experience in successful
-              projects.
+             Hello, I'm Ewa Lawrence, 
+             a passionate and skilled 
+             Full Stack Developer with a solid
+              foundation in web development. 
+              With two years of hands-on 
+              experience, I've honed my 
+              expertise in crafting 
+              robust and efficient 
+              solutions using cutting-edge 
+              technologies.
+
             </p> 
          
              <br />
