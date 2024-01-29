@@ -26,11 +26,11 @@ const Portfolio = () => {
 
 
   const openfmDemo = () => {
-    const fmLink = "https://simple-static-page-website.vercel.app/";
+    const fmLink = "https://sign-in-and-sign-up-form.vercel.app/sign-up";
     window.open(fmLink, '_blank');
   };
   const openfmCode = () => {
-    const fmCode = "https://github.com/ewalawrence/simple-static-page-website.git";
+    const fmCode = "https://github.com/ewalawrence/sign-in-and-sign-up-form.git";
     window.open(fmCode, '_blank');
   };
    
