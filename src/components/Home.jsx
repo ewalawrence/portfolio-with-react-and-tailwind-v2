@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b
+    <div name="home" className='h-screen pb-11 w-full bg-gradient-to-b
      from-black via-black to-gray-800'>
 {/* this will make the things here to align to center */}
 {/* md:flex-row makes the image and text in column orientation
@@ -13,19 +13,20 @@ in smaller screen and row oriented in large screen view */}
         <div className='max-w-screen-lg mx-auto flex flex-col 
         items-center justify-center h-full px-4 md:flex-row' >
             <div className='flex flex-col justify-center h-full '>
-            <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                I'm a Full Stack Developer
+            <h2 className='text-4xl font-bold text-white pt-12 mt-11'>
+                Hello there, I'm a Full Stack Developer
             </h2>
-            <p className='text-gray-500 py-4 max-w-md'>
-                i have 2 years of experience building and designing software.
-                Currently, i love to work on web application using technologies
-                React, Tailwind, Next JS and GraphQL. 
+            <p className='text-gray-500 lg:py-4 max-w-md'>
+                I have 2 years of experience building and designing software.
+                Currently, I love to work on web applications using technologies
+                like React, NextJS, PostgreSQL, Prisma, and also web-based 
+                platform and services like Git and GitHub. 
             </p>
 
                 <div>
-                    <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex 
+                    <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 flex 
                     items-center rounded-md bg-gradient-to-r from-cyan-500
-                    to-blue-500 cursor-pointer'>
+                    to-blue-500 cursor-pointer my-5'>
                       portfolio
                       {/* to add animation we will add styling to the span 
                       containing the icon */}
