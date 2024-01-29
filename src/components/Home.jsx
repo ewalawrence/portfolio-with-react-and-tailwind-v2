@@ -17,10 +17,12 @@ in smaller screen and row oriented in large screen view */}
                 Hello there, I'm a Full Stack Developer
             </h2>
             <p className='text-gray-500 lg:py-4 max-w-md'>
-                I have 2 years of experience building and designing software.
-                Currently, I love to work on web applications using technologies
-                like React, NextJS, PostgreSQL, Prisma, and also web-based 
-                platform and services like Git and GitHub. 
+            I possess a two-year track record in crafting and architecting
+             software solutions. Presently, my focus revolves around the
+             development of web applications, leveraging technologies such 
+             as React, NextJS, PostgreSQL, and Prisma. Additionally, I am 
+             adept at utilizing web-based platforms and services such as 
+             Git and GitHub in my work.
             </p>
 
                 <div>
