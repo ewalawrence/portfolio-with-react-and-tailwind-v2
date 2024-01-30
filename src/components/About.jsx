@@ -5,17 +5,17 @@ const About = () => {
     name="about" className='w-ful lg:h-screen pt-11  bg-gradient-to-b  from-gray-800
     to-black text-white'
     >
-    <div className='max-w-screen-lg p-4   mx-auto flex flex-col justify-center
+    <div className='max-w-screen-lg p-4 mt-9   mx-auto flex flex-col justify-center
     w-full h-full'>
-        <div className='pb-2 '>
-            <p className='text-4xl  font-bold inline border-b-4 
+        <div className='pb- '>
+            <p className='text-4xl font-bold inline underline 
             bordeer-gray-500'
             >
                 About
         </p>
         </div>
 
-             <p className='text-xl '>
+             <p className='text-l  '>
              Hello, I'm Ewa Lawrence, 
              a passionate and skilled 
              Full Stack Developer with a solid
