@@ -5,18 +5,18 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen pb-11 pt-12 w-full bg-gradient-to-b
+    <div name="home" className='h-screen w-full bg-gradient-to-b
      from-black via-black to-gray-800'>
 {/* this will make the things here to align to center */}
 {/* md:flex-row makes the image and text in column orientation
 in smaller screen and row oriented in large screen view */}
-        <div className='max-w-screen-lg mx-auto flex flex-col 
+        <div className='pl-12 lg:pl-0 pr-5  max-w-screen-lg mx-auto flex flex-col 
         items-center justify-center h-full px-4 md:flex-row' >
             <div className='flex flex-col justify-center h-full '>
-            <h2 className='text-4xl font-bold text-white pt-12 mt-11'>
-                Hello there, I'm a Full Stack Developer
+            <h2 className='text-2xl font-bold text-white pt-12 mt-11 pl-2'>
+                <span className='text-4xl'>Hello there</span>, <br /> I'm a Full Stack Developer
             </h2>
-            <p className='text-gray-500 lg:py-4 max-w-md'>
+            <p className='text-gray-500 lg:py-4 max-w-md  pl-3 '>
             I possess a two-year track record in crafting and architecting
              software solutions. Presently, my focus revolves around the
              development of web applications, leveraging technologies such 

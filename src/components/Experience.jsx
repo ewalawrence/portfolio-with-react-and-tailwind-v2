@@ -74,9 +74,9 @@ const Experience = () => {
       name="experience"
       className="bg-gradient-to-b pl-6 pt-12 lg:pt-11 from-gray-800 to-black w-full lg:h-screen"
     >
-      <div className="max-w-screen-lg mx-auto mt-11 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg lg:pl-0 pl-6 mx-auto mt-11 flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold underline border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold underline border-gray-500 inline">
             Experience
           </p>
           <p className="py-1">
@@ -84,7 +84,7 @@ const Experience = () => {
                 </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-9 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

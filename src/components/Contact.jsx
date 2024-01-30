@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      className="w-full pl-9 lg:pl-0 h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
@@ -34,7 +34,7 @@ const Contact = () => {
           <p className="mt-1">Submit the form below to get in touch with me...</p>
         </div>
 
-        <div className=" flex justify-center items-center">
+        <div className=" px-5 flex justify-center items-center">
             <form className=" flex flex-col w-full md:w-1/2" ref={form} onSubmit={sendEmail}>
 
             <label>Name</label>

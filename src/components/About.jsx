@@ -2,20 +2,20 @@ import React from 'react';
 const About = () => {
   return (
     <div 
-    name="about" className='w-ful lg:h-screen pt-11  bg-gradient-to-b  from-gray-800
+    name="about" className='w-ful lg:h-screen pt-12 bg-gradient-to-b  from-gray-800
     to-black text-white'
     >
-    <div className='max-w-screen-lg p-4 mt-9   mx-auto flex flex-col justify-center
+    <div className='max-w-screen-lg p-4 mt-9 lg:pl-0 pl-12  mx-auto flex flex-col justify-center
     w-full h-full'>
-        <div className='pb- '>
+        <div className=' text-2xl  '>
             <p className='text-4xl font-bold inline underline 
             bordeer-gray-500'
             >
                 About
         </p>
-        </div>
+        </div  >
 
-             <p className='text-l  '>
+             <p >
              Hello, I'm Ewa Lawrence, 
              a passionate and skilled 
              Full Stack Developer with a solid
@@ -31,17 +31,18 @@ const About = () => {
          
              <br />
 
-             <p className='text-2xl font-bold inline underline 
+             <p className=' font-bold inline underline 
             bordeer-gray-500'
             >
                What drives me?
-            </p>
-            Passion fuels my work. I'm driven by the excitement of creating innovative solutions that make a real 
+            </p  >
+            <p>Passion fuels my work. I'm driven by the excitement of creating innovative solutions that make a real 
             impact. Whether it's optimizing code for efficiency, 
             designing an intuitive user interface, or integrating cutting-edge technologies, I relish every challenge 
             that comes my way.
+            </p> 
             <br /> 
-            <p className='text-2xl font-bold inline underline
+            <p className=' font-bold inline underline
             bordeer-gray-500'
             >
               Beyond the Code
@@ -55,7 +56,7 @@ const About = () => {
             professional pursuits.
            </p>
            <br />
-           <p className='text-2xl font-bold inline underline 
+           <p className=' font-bold inline underline 
             bordeer-gray-500'
             >
               Let's Collaborate!
