@@ -6,7 +6,7 @@ import mundibia from '../assets/portfolio/mundibia.jpg';
 
 const Portfolio = () => {
   const openBsaDemo = () => {
-    const bsaLink = "https://book-store-app-v3.vercel.app/";
+    const bsaLink = "https://nextjs-fullstack-bookstore-app-with-sign-up-and-auth.vercel.app/";
     window.open(bsaLink, '_blank');
   };
   const openBsaCode = () => {

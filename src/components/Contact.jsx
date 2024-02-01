@@ -2,8 +2,10 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import {  toast } from 'react-toastify';
 
-
+// const handleRefresh = () => {
+//   window.location.reload()};
 const Contact = () => {
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -14,6 +16,7 @@ const Contact = () => {
      .then((result) => {
           console.log(result.text);
           toast.success('Message sent successfully!');
+          console.log('ok')
       
       }, (error) => {
           console.log(error.text);
@@ -64,7 +67,7 @@ const Contact = () => {
              required
             />
 
-            <input
+            <input  
             className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 
              mx-auto flex items-center rounded-md hover:scale-110 duration-300" 
             type="submit" 

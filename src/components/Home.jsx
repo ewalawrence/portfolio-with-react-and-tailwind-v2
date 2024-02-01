@@ -5,7 +5,7 @@ import {Link} from 'react-scroll';
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b
+    <div name="home" className='h-screen w-full lg:pt-10 bg-gradient-to-b
      from-black via-black to-gray-800'>
 {/* this will make the things here to align to center */}
 {/* md:flex-row makes the image and text in column orientation
