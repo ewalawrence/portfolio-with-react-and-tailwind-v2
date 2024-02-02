@@ -6,17 +6,17 @@ import mundibia from '../assets/portfolio/mundibia.jpg';
 
 const Portfolio = () => {
   const openBsaDemo = () => {
-    const bsaLink = "https://nextjs-fullstack-bookstore-app-with-sign-up-and-auth.vercel.app/";
+    const bsaLink = "https://bookstore-app-ebon.vercel.app/";
     window.open(bsaLink, '_blank');
   };
   const openBsaCode = () => {
-    const bsaCode = "https://github.com/ewalawrence/nextjs-fullstack-bookstore-app-with-sign-up-and-auth.git";
+    const bsaCode = "https://github.com/ewalawrence/bookstore-app.git";
     window.open(bsaCode, '_blank');
   };
 
 
   const openMundibiaDemo = () => {
-    const bsaLink = "https://simple-static-page-website.vercel.app/";
+    const bsaLink = "https://profound-starlight-8a0902.netlify.app";
     window.open(bsaLink, '_blank');
   };
   const openMundibiaCode = () => {
@@ -25,14 +25,7 @@ const Portfolio = () => {
   };
 
 
-  const openfmDemo = () => {
-    const fmLink = "https://sign-in-and-sign-up-form.vercel.app/sign-up";
-    window.open(fmLink, '_blank');
-  };
-  const openfmCode = () => {
-    const fmCode = "https://github.com/ewalawrence/sign-in-and-sign-up-form.git";
-    window.open(fmCode, '_blank');
-  };
+
    
  
     return (
@@ -81,24 +74,6 @@ const Portfolio = () => {
                   </button>
                 </div>
               </div>
-
-
-              <div className="shadow-md shadow-gray-600 rounded-lg">
-                <img
-                  src={fm}
-                  alt=""
-                  className="rounded-md duration-200 hover:scale-105"
-                />
-                <div className="flex items-center justify-center">
-                  <button onClick={openfmDemo} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
-                  </button>
-                  <button onClick={openfmCode} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Code
-                  </button>
-                </div>
-              </div>
-
 
               <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
