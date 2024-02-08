@@ -84,6 +84,7 @@ const Portfolio = () => {
                 <div className="flex items-center justify-center">
                   <button  className="w-full px-6 py-3 m-4 duration-200 hover:scale-105">
                    Next project loading...
+                   Website with HTML5, JavaScript & SASS
                   </button>
                  
                 </div>
