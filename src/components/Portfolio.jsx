@@ -82,9 +82,9 @@ const Portfolio = () => {
                   className="rounded-md duration-200 hover:scale-105"
                 />
                 <div className="flex items-center justify-center">
-                  <button  className="w-full px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <button  className="w-full  px-6 py-3 m-4 duration-200 hover:scale-105">
                    Next project loading... <br />
-                   Website with HTML5, JavaScript & SASS
+                   <p className='text-xl font-bold'>Website with HTML5, JavaScript & SASS</p>
                   </button>
                  
                 </div>
